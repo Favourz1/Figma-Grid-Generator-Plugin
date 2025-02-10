@@ -1,0 +1,16 @@
+{
+  "extends": "@create-figma-plugin/tsconfig",
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es6",
+    "lib": ["es6", "dom"],
+    "jsx": "react",
+    "jsxFactory": "h",
+    "strict": true,
+    "typeRoots": ["./node_modules/@figma", "./node_modules/@types"],
+    "allowJs": true,
+    "isolatedModules": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules", "build"]
+}

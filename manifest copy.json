@@ -1,0 +1,9 @@
+{
+  "api": "1.0.0",
+  "editorType": ["figma", "figjam"],
+  "documentAccess": "dynamic-page",
+  "id": "grid-generator-plugin",
+  "name": "Grid Generator Plugin",
+  "main": "code.js",
+  "ui": "ui.html"
+}
