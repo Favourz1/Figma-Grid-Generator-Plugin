@@ -19,13 +19,21 @@ function Plugin() {
       <Container space="medium">
         <Text>Grid Generator</Text>
         <VerticalSpace space="medium" />
-        <Button onClick={() => handleClick("grid-type-1")}>Grid Type 1</Button>
+        <Button onClick={() => handleClick("grid-type-1")}>
+          12-Column Grid
+        </Button>
         <VerticalSpace space="small" />
-        <Button onClick={() => handleClick("grid-type-2")}>Grid Type 2</Button>
+        <Button onClick={() => handleClick("grid-type-2")}>
+          8-Column Grid
+        </Button>
         <VerticalSpace space="small" />
-        <Button onClick={() => handleClick("grid-type-3")}>Grid Type 3</Button>
+        <Button onClick={() => handleClick("grid-type-3")}>
+          6-Column Grid with Rows
+        </Button>
         <VerticalSpace space="small" />
-        <Button onClick={() => handleClick("grid-type-4")}>Grid Type 4</Button>
+        <Button onClick={() => handleClick("grid-type-4")}>
+          4-Column Grid with Rows
+        </Button>
       </Container>
     </div>
   );
